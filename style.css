@@ -1,0 +1,68 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+#heading{
+    color: rgb(9, 6, 9);
+}
+#banner-image-container
+{
+    background-image: url("/static/images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#submit:hover{
+    background-color:lightsalmon;
+    transition: .5s ease-in-out;
+    color:black;
+}
+#result{
+    color: rgb(12, 8, 12);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 17%;
+
+}
+#navbar-search-btn
+{
+    color:#000;
+}
+.dropdown-item
+{
+    color:#FFF;
+}
+.dropdown-item:hover{
+    background-color: darkblue;
+    color:#FFF;
+}
+.Light-Earthquake{
+    color:grey;
+}
+.Minor-Earthquake{
+    color:black;
+}
+.Moderate-Earthquake{
+    color:orange;
+}
+.Strong-Damage-Expected{
+    color:orangered;
+    animation: blink 1s steps(1, end) infinite;
+}
+.Major-Damage-Expected{
+    color:red;
+    animation: blink 1s steps(1, end) infinite;
+}
+.small-heading{
+    font-size: 18px;
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
